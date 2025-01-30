@@ -1,7 +1,7 @@
-# Bitcoin Chatbot
+# CryptoQuery: A Bitcoin-focused Chatbot 
 
 ## Overview
-Bitcoin Chatbot is an AI-powered chatbot built using Streamlit, LangChain, and Ollama. It allows users to ask questions related to Bitcoin and retrieves relevant information using a combination of vector embeddings, BM25 ranking, and an LLM-based response system.
+CryptoQuery is an AI-powered chatbot built using Streamlit, LangChain, and Ollama. It allows users to ask questions related to Bitcoin and retrieves relevant information using a combination of vector embeddings, BM25 ranking, and an LLM-based response system.
 
 ## Features
 - Loads and processes a Bitcoin-related PDF document
@@ -50,16 +50,6 @@ python -m spacy download en_core_web_sm
 - The chatbot will retrieve relevant information and provide a detailed response.
 - It preprocesses queries for better understanding and relevance.
 - It maintains context across multiple user interactions.
-
-## Project Structure
-```
-📂 Bitcoin Chatbot
-├── app.py               # Main Streamlit app
-├── bitcoin.pdf          # Source document for chatbot knowledge
-├── chroma_db/           # Chroma vector database storage
-├── requirements.txt     # List of dependencies
-└── README.md            # Project documentation
-```
 
 ## Future Improvements
 - Add support for multiple documents
